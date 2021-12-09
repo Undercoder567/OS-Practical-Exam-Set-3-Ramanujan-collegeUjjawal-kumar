@@ -1,6 +1,6 @@
 # OS-Practical-Exam-Set-3-Ramanujan-collegeUjjawal-kumar
 
-**SET-3 OS-Practical-Exam
+**SET-3 OS-Practical-Exam**
 
 **Ques1:Implement Round robin scheduling algorithm with quanta 3. Compute waiting time, 
 turnaround time.**
@@ -92,7 +92,7 @@ Therefore, after the system call to fork(), a simple test can tell which process
 
 As both process start at same time The **Fork** will call parent process **first** and the process executes first with parent id. 
 
-Sample output:
+**Sample output:**
 
 ![IMG_20211209_110709](https://user-images.githubusercontent.com/83595564/145342322-cd19e292-6d4b-4ad9-8234-6e80c7673f8e.jpg)
 

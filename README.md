@@ -62,5 +62,11 @@ The tricky part is to compute waiting times. Once waiting times are computed, tu
 In this way we are able to find the Round robin Schedule for CPU time distribution. 
 
 
-Qee2 : Write a program to demonstrate fork where parent and child run same codes and parent 
+Que2 : Write a program to demonstrate fork where parent and child run same codes and parent 
 process should be executed first.
+
+Solution:
+
+***Description About the program***
+
+

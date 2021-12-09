@@ -1,5 +1,7 @@
 # OS-Practical-Exam-Set-3-Ramanujan-collegeUjjawal-kumar
+
 SET-3 OS-Practical-Exam
+
 Ques1:Implement Round robin scheduling algorithm with quanta 3. Compute waiting time, 
 turnaround time.
 Solution:
@@ -22,6 +24,9 @@ Round Robin is a CPU scheduling algorithm where each process is assigned a fixed
 @Waiting Time(W.T): Time Difference between turn around time and burst time. 
 
 @Waiting Time = Turn Around Time – Burst Time
+
+![Screenshot_2021-12-09-10-36-06-614_ru iiec cxxdroid](https://user-images.githubusercontent.com/83595564/145340001-f5e7b947-7114-422f-8988-c8734c21f330.jpg)
+
  
  **Sample Output**![Screenshot_2021-12-09-10-35-52-618_ru iiec cxxdroid](https://user-images.githubusercontent.com/83595564/145339365-2f379d0a-f5e1-4fd2-8372-c40401c890d9.jpg)
  

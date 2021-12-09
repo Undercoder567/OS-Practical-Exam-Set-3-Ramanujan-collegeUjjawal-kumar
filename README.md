@@ -4,8 +4,10 @@ SET-3 OS-Practical-Exam
 
 Ques1:Implement Round robin scheduling algorithm with quanta 3. Compute waiting time, 
 turnaround time.
+
 Solution:
 *********Description About the Program*********
+
 Round Robin is a CPU scheduling algorithm where each process is assigned a fixed time slot in a cyclic way.
 
 @It is simple, easy to implement, and starvation-free as all processes get fair share of CPU time and implementation got easy. 
@@ -17,6 +19,7 @@ Round Robin is a CPU scheduling algorithm where each process is assigned a fixed
 @The disadvantage of it is more overhead of context switching.
 
 **How to compute times in Round Robin using a program?**
+
 @Completion Time: Time at which process completes its execution.
 
 @Turn Around Time: Time Difference between completion time and arrival time. Turn Around Time = Completion Time – Arrival Time
@@ -55,7 +58,9 @@ The tricky part is to compute waiting times. Once waiting times are computed, tu
        (i)  t = t + rem_bt[i];
        (ii) wt[i] = t - bt[i]
        (ii) rem_bt[i] = 0; // This process is over
+       
 In this way we are able to find the Round robin Schedule for CPU time distribution. 
+
 
 Qee2 : Write a program to demonstrate fork where parent and child run same codes and parent 
 process should be executed first.

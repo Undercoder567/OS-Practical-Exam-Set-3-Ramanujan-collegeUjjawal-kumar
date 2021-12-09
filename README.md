@@ -25,10 +25,12 @@ Round Robin is a CPU scheduling algorithm where each process is assigned a fixed
 
 @Waiting Time = Turn Around Time – Burst Time
 
+**Sample Output**
+
 ![Screenshot_2021-12-09-10-36-06-614_ru iiec cxxdroid](https://user-images.githubusercontent.com/83595564/145340001-f5e7b947-7114-422f-8988-c8734c21f330.jpg)
 
  
- **Sample Output**![Screenshot_2021-12-09-10-35-52-618_ru iiec cxxdroid](https://user-images.githubusercontent.com/83595564/145339365-2f379d0a-f5e1-4fd2-8372-c40401c890d9.jpg)
+ ![Screenshot_2021-12-09-10-35-52-618_ru iiec cxxdroid](https://user-images.githubusercontent.com/83595564/145339365-2f379d0a-f5e1-4fd2-8372-c40401c890d9.jpg)
  
 In this post, we have assumed arrival times as 0, so turn around and completion times are same.
 

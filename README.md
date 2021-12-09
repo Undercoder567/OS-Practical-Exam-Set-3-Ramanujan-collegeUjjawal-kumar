@@ -1,11 +1,11 @@
 # OS-Practical-Exam-Set-3-Ramanujan-collegeUjjawal-kumar
 
-SET-3 OS-Practical-Exam
+**SET-3 OS-Practical-Exam
 
-Ques1:Implement Round robin scheduling algorithm with quanta 3. Compute waiting time, 
+**Ques1:Implement Round robin scheduling algorithm with quanta 3. Compute waiting time, 
 turnaround time.
 
-Solution:
+**Solution:
 *********Description About the Program*********
 
 Round Robin is a CPU scheduling algorithm where each process is assigned a fixed time slot in a cyclic way.

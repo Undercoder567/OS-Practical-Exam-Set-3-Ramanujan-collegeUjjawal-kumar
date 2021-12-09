@@ -3,9 +3,10 @@
 **SET-3 OS-Practical-Exam
 
 **Ques1:Implement Round robin scheduling algorithm with quanta 3. Compute waiting time, 
-turnaround time.
+turnaround time.**
 
-**Solution:
+**Solution:**
+
 *********Description About the Program*********
 
 Round Robin is a CPU scheduling algorithm where each process is assigned a fixed time slot in a cyclic way.
@@ -65,7 +66,7 @@ In this way we are able to find the Round robin Schedule for CPU time distributi
 **Que2 : Write a program to demonstrate fork where parent and child run same codes and parent 
 process should be executed first.**
 
-**Solution:
+**Solution:**
 
 ***Description About the program***
 

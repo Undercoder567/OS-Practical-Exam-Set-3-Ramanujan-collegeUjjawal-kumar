@@ -69,4 +69,29 @@ Solution:
 
 ***Description About the program***
 
+The fork() System Call
+
+System call fork() is used to create processes. It takes no arguments and returns a process ID. The purpose of fork() is to
+
+create a new process, which becomes the child process of the caller. After a new child process is created, both processes 
+
+will execute the next instruction following the fork() system call. Therefore, we have to distinguish the parent from the
+
+child. This can be done by testing the returned value of fork():
+
+If fork() returns a negative value, the creation of a child process was unsuccessful.
+
+fork() returns a zero to the newly created child process.
+
+fork() returns a positive value, the process ID of the child process, to the parent. The returned process ID is of type
+
+pid_t defined in sys/types.h. Normally, the process ID is an integer. Moreover, a process can use function getpid() to retrieve the process ID assigned to this process.
+
+Therefore, after the system call to fork(), a simple test can tell which process is the child
+
+As both process start at same time The **Fork** will call parent process **first** and the process executes first with parent id. 
+
+Sample output:
+
+![IMG_20211209_110709](https://user-images.githubusercontent.com/83595564/145342322-cd19e292-6d4b-4ad9-8234-6e80c7673f8e.jpg)
 
